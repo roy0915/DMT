@@ -10,7 +10,7 @@ import time
 
 # main function - opens a new tab on the open browser when start button is clicked
 def browserfunction():  # function name 'browserfunction'
-	webbrowser.get().open('http://192.168.2.1/html/')	# this is the static IP address of the RPi
+	webbrowser.get().open('http://192.168.4.1/html/')	# this is the static IP address of the RPi
 
 
 # just to check if its working
